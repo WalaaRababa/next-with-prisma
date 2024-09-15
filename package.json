@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "@prisma/client": "^5.19.1",
+    "@redis/client": "^1.6.0",
     "next": "14.2.11",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "redis": "^4.7.0"
   },
   "devDependencies": {
     "@types/node": "^20",

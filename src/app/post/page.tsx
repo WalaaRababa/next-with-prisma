@@ -17,6 +17,7 @@ const user = await prisma.user.findUnique({
   include: {
     posts: true,
   },
+  
 })
   return (
     <div>
